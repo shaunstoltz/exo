@@ -80,6 +80,12 @@ model_cards = {
        "TinygradDynamicShardInferenceEngine": "TriAiExperiments/SFR-Iterative-DPO-LLaMA-3-70B-R",
     },
   },
+    "qwq-preview-32b": {
+    "layers": 64,
+    "repo": {
+       "TinygradDynamicShardInferenceEngine": "Qwen/QwQ-32B-Preview",
+    },
+  },
   "llama-3.1-405b": { "layers": 126, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/Meta-Llama-3.1-405B-4bit", }, },
   "llama-3.1-405b-8bit": { "layers": 126, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/Meta-Llama-3.1-405B-Instruct-8bit", }, },
   ### mistral
